@@ -85,9 +85,9 @@ section {
   font-weight: var(--font-semi-bold);
   padding: 12px 35px;
 }
-#whyme {
+/* #whyme {
   background-image: url("/assets/images/skills.jpg");
-}
+} */
 .btn-primary {
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
