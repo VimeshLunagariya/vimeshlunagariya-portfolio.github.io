@@ -482,12 +482,16 @@
                 Complete the following form and a I'll call you as soon as
                 possible.
               </p>
-              <form class="mt-4">
-                <div class="row" id="divMsg">
+              <div id="divMsg">
+
+              </div>
+              <form class="mt-4" action="https://formsubmit.co/el/yegure"  method="post" enctype="text/plain">
+                <div class="row">
                   <div class="col my-3">
                     <label>First name*</label>
                     <input
                       type="text"
+                      name="fname"
                       class="form-control rounded-0"
                       placeholder="First name"
                     />
@@ -496,6 +500,7 @@
                     <label>Last name*</label>
                     <input
                       type="text"
+                      name="lname"
                       class="form-control rounded-0"
                       placeholder="Last name"
                     />
@@ -506,6 +511,7 @@
                     <label>Email</label>
                     <input
                       type="text"
+                      name="email"
                       class="form-control rounded-0"
                       placeholder="Email"
                     />
@@ -514,6 +520,7 @@
                     <label>Phone number</label>
                     <input
                       type="text"
+                      name="number"
                       class="form-control rounded-0"
                       placeholder="Phone number"
                     />
@@ -522,10 +529,10 @@
                 <div class="row">
                   <div class="col my-3">
                     <label>Message</label>
-                    <textarea class="form-control" id="" rows="3"></textarea>
+                    <textarea name="messsage" class="form-control" id="" rows="3"></textarea>
                   </div>
                 </div>
-                <a href="#" class="btn btn-primary mt-3"
+                <a href="#" class="btn btn-primary mt-3" type="submit"
                   >Send Message
                   <i class="icon ion-md-arrow-forward align-middle ml-3"></i
                 ></a>
