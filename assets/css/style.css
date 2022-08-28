@@ -118,6 +118,7 @@ section {
   color: var(--light-color);
 }
 .lead {
+  width: 1149px;
   font-size: 1.25em;
   font-weight: 600;
 }
@@ -149,7 +150,16 @@ section {
 .heading-title {
   max-width: 800px;
 }
-
+div#divMsg {
+  font-weight: 900;
+  color: #3588ff;
+  font-size: 16px;
+}
+label {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
 .main-photo {
   border: 10px solid var(--light-color);
   border-radius: 2px;
@@ -241,6 +251,11 @@ footer a:hover {
     padding: 2rem 1.5rem !important;
     margin-top: 1.5rem;
   }
+  .lead {
+    width: 336px;
+    font-size: 1.25em;
+    font-weight: 600;
+}
 }
 
 @media (max-width: 768px) {
@@ -256,6 +271,11 @@ footer a:hover {
   .pricing-card {
     padding: 2rem 1rem !important;
   }
+  .lead {
+    width: 336px;
+    font-size: 1.25em;
+    font-weight: 600;
+}
 }
 
 /* fjygew */
