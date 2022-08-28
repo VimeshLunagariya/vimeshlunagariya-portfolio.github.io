@@ -130,6 +130,12 @@ section {
   min-width: 160px;
   max-width: 180px;
 }
+.whymestyle{
+  color: #ddd;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 1020px;
+}
 
 #hero i {
   font-size: 26px;
@@ -149,11 +155,23 @@ section {
   border-radius: 2px;
   box-shadow: -10px 10px 0 0 var(--secondary-color);
 }
-
+.list-group-item {
+  position: relative;
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  display: block;
+  padding: 0.75rem 0.25rem;
+  margin-bottom: unset;
+  background-color: rgb(22, 29, 39);
+  border: 2px solid rgb(56 56 56);
+}
 .card {
   transition: all 0.5s;
 }
-
+.card-footer:last-child{
+   margin-top: -30px;
+}
 .card:hover {
   box-shadow: 0 15px 30px -12px rgba(50, 50, 93, 0.1);
   transition: all 0.5s;
@@ -200,6 +218,12 @@ footer a:hover {
 }
 
 @media (max-width: 575.98px) {
+  .whymestyle{
+    color: #ddd;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 342px;
+  }
   .main-photo {
     max-width: 300px;
   }
@@ -220,6 +244,12 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+  .whymestyle{
+    color: #ddd;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 342px;
+  }
   .display-4 {
     font-size: 2.5rem;
   }
@@ -264,9 +294,10 @@ footer a:hover {
 }
 .testimonial .description {
   padding: 20px 22px;
-  background: #1f487e;
+  background: #2f2f2f;
   font-size: 15px;
   color: #fff;
+  cursor: pointer;
   line-height: 25px;
   margin: 0;
   position: relative;
@@ -276,7 +307,7 @@ footer a:hover {
   content: "";
   border-width: 18px 0 0 18px;
   border-style: solid;
-  border-color: #5d7aa7 transparent transparent;
+  border-color: #2f2f2f transparent transparent;
   position: absolute;
   bottom: -18px;
   left: 0;
