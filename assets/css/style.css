@@ -92,7 +92,7 @@ section {
   padding: 12px 35px;
 }
 #whyme {
-  background-image: url(/assets/images/1.png);
+  background-image: url(../images/skills.jpg);
 }
 .btn-primary {
   background-color: var(--primary-color);
