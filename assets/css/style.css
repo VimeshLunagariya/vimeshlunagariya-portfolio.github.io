@@ -5,7 +5,13 @@
     Licensed under MIT (https://github.com/diegovr7/freelancer-portfolio/blob/master/LICENSE)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
+button.btn.btn-primary.getstrated {
+  display: block;
+  margin: 0px auto;
+  background: #444344;
+  border-radius: 60px;
+  color: white;
+}
 :root {
   --primary-color: #161d27;
   --secondary-color: #a19975;
